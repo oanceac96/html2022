@@ -1,0 +1,39 @@
+/* smartphones (portrait and landscape) */
+@media (max-width : 640px) {
+    .mob{
+        display: block;
+    }
+    div:not(.mob){
+        display: none;
+    }
+}
+
+/* Ipads (portrait and landscape) */
+@media (max-width : 641px) and (max-width : 768px) {
+    .tab{
+        display: block;
+    }
+    div:not(.tab){
+        display: none;
+    }
+}
+
+/* Desktops and laptops */
+@media (max-width : 769px) and (max-width : 1223px) {
+    .desk{
+        display: none;
+    }
+    div:not(.desk){
+        display: none;
+    }
+}
+
+/* Large screens */
+@media (min-width : 1224px) {
+    .lap{
+        display: none;
+    }
+    div:not(.lap){
+        display: none;
+    }
+}
